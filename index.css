@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url("monotypecorsiva.ttf");
+}
+
+@font-face {
+    font-family: 'Comic Sans';
+    src: url("Comic Sans MS.ttf");
+}
+
+
+
+#background-winter {
+    margin-top: 0%;
+    background-color: beige;
+    /* z-index: -11; */
+    position: relative;
+}
+
+#page-1{
+    /* z-index: 2; */
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    width: 60%;
+    height: 60vh;
+    /* padding: ; */
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: rgb(55, 143, 198);
+    animation-name: page-1;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    /* animation-direction: alternate; */
+    animation-timeline: scroll(block nearest);
+}
+
+#happy-new-year {
+    width: 100%;
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 10vh;
+}
+
+#happy-new-year > p {
+    font-size: 30pt;
+}
+
+#rome {
+    padding-top: 30%;
+    width: 50%;
+    font-size: 50pt;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+@keyframes page-1 {
+    to {
+      background-color: rgb(19, 48, 97);
+    }
+}
+
+.colesium {
+    height: 100%;
+}
+
+
+#page-2 {
+    position: relative;
+    z-index: 12;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+    margin-top: -10vh;
+    margin-left: 30%;
+    height: 50vh;
+    background-color: rgb(19, 48, 97);
+    animation-name: page-2;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    /* animation-direction: alternate; */
+    animation-timeline: scroll(block nearest);
+}
+
+@keyframes page-2 {
+    to {
+      background-color: rgb(66, 173, 162);
+    }
+}
+
+.forum {
+    height: 100%;
+}
+
+#hidden-page-3 {
+    /* position: relative; */
+    /* z-index: -10; */
+    margin-top: -50vh;
+    margin-left: 20%;
+    width: 30vh;
+    height: 20vh;
+    max-height: 20vh;
+    background-color: rgb(99, 227, 202);
+    animation-name: hpage-3;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    /* animation-direction: alternate; */
+    animation-timeline: scroll(block nearest);
+}
+
+@keyframes hpage-3 {
+    to {
+      background-color: rgb(23, 115, 221);
+    }
+}
+
+#hidden-page-4 {
+    /* position: relative; */
+    /* z-index: -10; */
+    margin-top: 35vh;
+    margin-left: 10%;
+    font-size: 50pt;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 40%;
+    /* height: 20vh; */
+    max-height: 20vh;
+    background-color: rgb(47, 84, 185);
+    animation-name: hpage-4;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-timeline: scroll(block nearest);
+}
+
+@keyframes hpage-4 {
+    to {
+      background-color: rgb(41, 231, 114);
+    }
+}
+
+#page-3 {
+    position: relative;
+    margin-top: -10vh;
+    margin-left: 60%;
+    padding: 5%;
+    height: 60vh;
+    width:fit-content;
+    background-color: rgb(196, 193, 127);
+    animation-name: page-3;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-timeline: scroll();
+}
+
+@keyframes page-3 {
+    to {
+      background-color: rgb(43, 123, 23);
+    }
+}
+
+
+#page-3 > img {
+    height: 90%;
+}
+
+
+#page-4 {
+    position: relative;
+    margin-top: -60vh;
+    margin-left: 20%;
+    padding: 5%;
+    height: 60vh;
+    width: fit-content;
+    background-color: rgb(111, 181, 169);
+    animation-name: page-4;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-timeline: scroll();
+}
+
+#page-4 > img {
+    height: 90%;
+}
+
+@keyframes page-4 {
+    to {
+      background-color: rgb(79, 186, 52);
+    }
+}
+
+#tihonovo {
+    margin-top: 10vh;
+    width: 40%;
+    margin-left: 30%;
+    font-family: "Monotype Corsiva";
+    font-size: 40pt;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-style: solid;
+    text-align: center;
+    border-width: 10px;
+    border-color: rgb(238, 255, 0);
+}
+
+#page-5 {
+    /* position: relative; */
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 7%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(233, 138, 36);
+    background-color: rgb(241, 19, 189);
+    padding: 5vh;
+}
+
+#page-5 > img {
+    height: 50vh;
+}
+
+#kyrgyzstan {
+    font-size: 30pt;
+}
+
+#kyrgyzstan-header {
+    width: 80%;
+    font-family: 'Comic Sans';
+    font-size: 40pt;
+    margin-top: 20vh;
+    margin-left: 20%;
+    margin-bottom: 20vh;
+}
+
+
+#mountains-1 {
+    transform: rotate(30deg);
+    height: 60vh;
+}
+
+#mountains-2 {
+    transform: rotate(-40deg);
+    height: 60vh;
+}
+
+.inner-kyrgyz{
+    background-color: rgb(141, 233, 180);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.inner-kyrgyz > img {
+    height: 100%;
+}
+
+
+.inner-kyrgyz > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+#budapest {
+    /* display: flex; */
+    font-size: 30pt;
+    color: aliceblue;
+    /* padding: 10%; */
+    height: 90vh;
+    width: 70%;
+    margin-top: 10vh;
+    margin-left: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("img/best_photo_budapest.jpg");
+}
+
+#budapest > div {
+    margin-top: 10vh;
+    margin-left: 10%;
+}
+
